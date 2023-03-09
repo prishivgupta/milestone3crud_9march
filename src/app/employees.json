@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "employeeName": "Prishiv",
+      "address": "Bengaluru",
+      "phone": 9858290700,
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "employeeName": "Employee1",
+      "address": "Jammu",
+      "phone": 9858290701,
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "employeeName": "Employee2",
+      "address": "Delhi",
+      "phone": 9858290702,
+      "country": "India"
+    },
+    {
+      "id": 4,
+      "employeeName": "Employee3",
+      "address": "Bengaluru",
+      "phone": 9858290703,
+      "country": "India"
+    }
+  ]
+}

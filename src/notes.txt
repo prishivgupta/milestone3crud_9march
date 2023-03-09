@@ -1,0 +1,40 @@
+Employee CRUD
+
+Create a employee json file and add dummy data
+Run the json server using json-server ./src/app/employees.json
+
+create an Employee model interface in the Models folder
+
+Add formsModule and HttpClientModule in app.module.ts and call them in imports array
+
+create Services folder and add add Http client and add it in constructor
+define a base url of the json server
+create all the crud services using the observable to fetch data from server
+Implement error handling in all the services
+
+Create a navabar inside component folder
+add the navbar inside app.component.html
+
+Create an employees page to display all the employees in a table
+add the edit delete and add buttons
+Inside the ts file call the getAllEmployees service and store data inside employees array
+Using OnInit call the getAllEmployees method
+Add the deleteEmployee function by calling the deleteEmployee employee method from service
+
+Create a new component for adding a new employee
+Create a form to get the employee details and Implement ng form
+Add the submit button
+inside the ts file create employee object and create a function to call addEmployee service
+On successful call of the function go back to previous page
+
+Create a new component for editing the employee
+Create a form to get the employee details and Implement ng form
+Add the submit button
+inside the ts file create employee object and create a function to call editEmployee service
+Get the id from url and fetch the data of particular employee and fill it in edit form
+On successful call of the function go back to previous page
+
+Inside the app-routing.module.ts implement the routing for all the pages
+call the routes in app.component.html using router outlet
+
+Run the project using ng serve -o
